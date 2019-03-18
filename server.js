@@ -2,6 +2,7 @@
 
 const Koa = require('koa')
 const { isUrl } = require("is-valid-url")
+const cors = require("@koa/cors")
 
 const {badRequest, created, redirect, notFound} = require("./helper");
 
@@ -9,7 +10,7 @@ const db = require("./db");
 
 const app = new Koa();
 
-
+app.use(cors());
 
 app.use(async (context, next) => {
 

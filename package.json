@@ -7,6 +7,7 @@
   "license": "ISC",
   "repository": "https://github.com/kenpusney/jaus",
   "dependencies": {
+    "@koa/cors": "^2.2.3",
     "is-valid-url": "^1.0.1",
     "koa": "^2.7.0",
     "level": "^4.0.0",
