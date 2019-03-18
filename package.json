@@ -1,13 +1,11 @@
 {
   "name": "jaus",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+  "description": "Just Another URL Shortener",
+  "main": "server.js",
+  "author": "KimmyLeo <kenpusney@gmail.com>",
   "license": "ISC",
+  "repository": "https://github.com/kenpusney/jaus",
   "dependencies": {
     "is-valid-url": "^1.0.1",
     "koa": "^2.7.0",
