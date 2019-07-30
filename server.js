@@ -14,7 +14,7 @@ const db = require("./db");
 const app = new Koa();
 
 app.use(cors());
-app.use(serve("./static"))
+app.use(serve(__dirname + "/static"))
 app.use(bodyParser());
 
 app.use(async (context, next) => {
