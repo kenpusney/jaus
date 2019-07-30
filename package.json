@@ -1,6 +1,6 @@
 {
   "name": "jaus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Just Another URL Shortener",
   "main": "server.js",
   "author": "KimmyLeo <kenpusney@gmail.com>",
@@ -10,6 +10,8 @@
     "@koa/cors": "^2.2.3",
     "is-valid-url": "^1.0.1",
     "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-static": "^5.0.0",
     "level": "^4.0.0",
     "nanoid": "^2.0.1"
   }
